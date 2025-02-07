@@ -4,6 +4,7 @@ import { useNavigate, useParams } from "react-router-dom";
 import { toast } from "react-toastify";
 import { server } from "../server/server";
 import { io } from "socket.io-client";
+import Loader from "../loader/Loader"
 
 const socket = io(server);
 
