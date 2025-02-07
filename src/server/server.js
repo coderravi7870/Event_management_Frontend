@@ -1,0 +1,1 @@
+export const  server = "https://event-management-backend-on0e.onrender.com"
